@@ -1,0 +1,81 @@
+.modal
+	position: relative
+	overflow: hidden
+	max-width: 400px
+	height: auto
+	padding: 50px
+	background-color: $dark
+	z-index: 1
+
+	h2, p
+		text-align: center
+		color: $white
+		line-height: 1.2
+
+	h2
+		font-size: 35px
+		margin-bottom: 15px
+
+	label.error
+		position: absolute
+		top: -20px
+		right: 0
+		left: 0
+		transition: all .3s
+		animation: error .3s linear 1 forwards
+		color: red
+		text-align: center
+		font-weight: 400
+
+	.btn
+		width: 100%
+		padding: 18px 0
+		font-size: 12px
+
+	.close
+		position: absolute
+		right: 15px
+		top: 30px
+		display: block
+		background: transparent
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+		width: 25px
+		height: 25px
+		border: none
+		outline: none
+		cursor: pointer
+
+		&::before
+			content: ""
+			display: block
+			position: absolute
+			right: 0
+			top: -10px
+			background-color: $white
+			width: 35px
+			height: 3px
+			transition: all .3s
+			transform: translate3d(0, 0px, 0) rotate(45deg)
+			opacity: .5
+
+		&::after
+			content: ""
+			display: block
+			position: absolute
+			right: 0
+			top: -20px
+			background-color: $white
+			width: 35px
+			height: 3px
+			transition: all .3s
+			transform: translate3d(0, 10px, 0) rotate(-45deg)
+			opacity: .5
+
+		&:hover
+			&::before
+				opacity: 1
+			&::after
+				opacity: 1
+			
