@@ -9,7 +9,7 @@
 
 <body class="no-scroll design">
 
-	<header class="header header--page">
+	<header class="header header--page"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<div class="container header__container">
 
 			<div class="row header__row">
@@ -21,8 +21,7 @@
 
 				<div class="header__line col-lg-4">
 					<a href="<?php echo get_home_url(); ?>" class="header__logo logo">
-						<b>FLEX</b>
-						<br>
+						<b>FX</b>
 						<span class="title-line">design</span>
 					</a>
 					
@@ -39,8 +38,6 @@
 					
 					<p class="header--page__text">unique projects of flax design</p>
 					<p class="header--page__title title-line">
-						жизнь
-						<br>идей
 						<b>
 							<br>life
 							<br>of
@@ -62,7 +59,7 @@
 					</nav>
 
 					<div class="header__next">
-						<a href="#top">скроль вниз<span class="header__next_title-line title-line"></span></a>
+						<a href="#top">scroll down<span class="header__next_title-line title-line"></span></a>
 					</div>
 				</div>
 
@@ -72,11 +69,11 @@
 					</div>
 
 					<div class="header--page__block-title">
-						<p class="header--page__sub-title">услуги & цены</p>
-						<h1>дизайн</h1>
+						<p class="header--page__sub-title">Price & Service</p>
+						<h1>Design</h1>
 					</div>
 
-					<span>flex-design web production</span>
+					<span>fx-design web production</span>
 				</div>
 
 			</div>
@@ -90,29 +87,29 @@
 
 				<div class="site-plan__container">
 
-					<p class="about__sub-title sub-title">мы создаем сайты</p>
-					<h2>работы над <br>веб-проектом</h2>
+					<p class="about__sub-title sub-title wow bounceInUp" data-wow-duration="2s">We create websites</p>
+					<h2 class="wow bounceInUp" data-wow-duration="2s">How do we work on <br>our web projects</h2>
 
 					<div class="site-plan__list">
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2s">
 							<div class="site-plan__item_number">01</div>
-							<h3>Анализ информации</h3>
+							<h3>Analysis and screening</h3>
 							<p>
-								Работа над дизайном сайта начинаеться с тщательного изучения соответствующей области рынка, изучения целевой аудитории , ее интересов и потребностей.
+								Before we start with the website design we do the market studies, we learn the target audience, its needs and interests.
 							</p>
 						</div>
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2.2s">
 							<div class="site-plan__item_number">02</div>
-							<h3>Подбор графического <br>решения</h3>
+							<h3>Graphics selection</h3>
 							<p>
-								Дизайн  каждего сайта индивидуален. Мы подбираем контент, типографику и цветовые решения опираясь на специфику Вашей компании и рода  ее деятельности. Мы следуем одной стилистике , что бы сохранить целосность восприятия проекта.
+								The website design us customised and has individual character. We create content, craphics and colors taking into account the specifics of your company and market segment you are operating in. To create the holistic website perception we use one style.
 							</p>
 						</div>						
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2.4s">
 							<div class="site-plan__item_number">03</div>
-							<h3>Разработка дизайн-макета</h3>
+							<h3>Development of the design layout </h3>
 							<p>
-								Мы учитываем все ваши пожелания и замечания и вместе с Вами  мы найдем оптимальное решение именно для Вашего бизнеса. Мы  представляем  стильный,современный и  оригинальный,  дизайн, который поможет в развитии Вашей компании и вовлечет больше аудитории.
+							To find an optimal solution for  your bussines we will consider all your wishes and comments. We will make a stylish, up-to-date and unique websites design which  will help your company to grow and will bring you closer to your target audience.
 							</p>
 						</div>
 
@@ -133,30 +130,30 @@
 
 					<div class="design-work__list site-work__list">
 						
-						<div class="design-work__item site-work__item">
+						<div class="design-work__item site-work__item wow bounceInUp" data-wow-duration="2s">
 							<div>
 								<div class="site-work__item_dekor"></div>
-								<h3>Разработка <br>Логотипа  <span class="title-line"></span></h3>
-								<p>Логотип — яркий и узнаваемый графический элемент, представляющий род Вашей деятельности визуальными образами. Разработка логотипа профессионалами поможет создать хороший имидж Вашей компании</p>
-								<div class="site-work__item_price"><span>ОТ</span> 50 <span>usd</span></div>
+								<h3>Logo <br>Creation  <span class="title-line"></span></h3>
+								<p>Logo - a unique and recognisable element, describing your activites using visual images. A logo developed by proffessionals will created your company images.</p>
+								<div class="site-work__item_price"><span>from</span> 50 <span>eur</span></div>
 							</div>
 						</div>
 
-						<div class="design-work__item site-work__item">
+						<div class="design-work__item site-work__item wow bounceInUp" data-wow-duration="2.2s">
 							<div>
 								<div class="site-work__item_dekor"></div>
-								<h3>Фирменный <br>Cтиль <span class="title-line"></span></h3>
-								<p>Фирменный стиль — это визуальная идентификации Вашей Компании. Наша команда поможет создать уникальный фирменный стиль, который выделит Вашу фирму и ее продукцию среди многообразия других</p>
-								<div class="site-work__item_price"><span>ОТ</span> 200 <span>usd</span></div>
+								<h3>Brand <br>identity <span class="title-line"></span></h3>
+								<p>Brand identity - a visual identification of your company. Our team hepls to create a unique brand identity that differentiates your organisation and your product from others</p>
+								<div class="site-work__item_price"><span>from</span> 250 <span>eur</span></div>
 							</div>
 						</div>
 
-						<div class="design-work__item site-work__item">
+						<div class="design-work__item site-work__item wow bounceInUp" data-wow-duration="2.4s">
 							<div>
 								<div class="site-work__item_dekor"></div>
-								<h3>Банер <span class="title-line"></span></h3>
-								<p>Баннер — один из эффективных видов интернет-рекламы для продвижения Ваших товаров или услуг. Мы создадим баннер, который визуально привлечет и заинтересует потенциальных клиентов и будет соответствовать имиджу компании, которую он представляет </p>
-								<div class="site-work__item_price"><span>от</span> 100 <span>usd</span></div>
+								<h3>Banner <span class="title-line"></span></h3>
+								<p>Banner - one of the effective online advertising tools to promote your products and services. We create visually attractive banners that trigger your potential customers interest and will fully reflect your company image </p>
+								<div class="site-work__item_price"><span>from</span> 150 <span>eur</span></div>
 							</div>
 						</div>
 
@@ -167,12 +164,12 @@
 						<h3>
 							<span></span>
 							<span></span>
-							<a href="<?php echo get_home_url(); ?>/site" class="link">Создание сайтов<span></span></a>
+							<a href="<?php echo get_home_url(); ?>/site" class="link">Websites design<span></span></a>
 						</h3>
 						<h3 class="site-work__item_click">
 							<span></span>
 							<span></span>
-							<a href="#contacts" class="link">Заказать услугу<span></span></a>
+							<a href="#contacts" class="link">Order now <span></span></a>
 						</h3>
 					</div>
 				</div>

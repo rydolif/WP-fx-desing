@@ -1,7 +1,9 @@
 @import "libs"
 @import "base"
 
-
+.no-scroll
+	overflow: hidden
+	
 .header__language
 	input
 		height: 20px
@@ -12,9 +14,6 @@
 
 #tr_credit
 	display: none
-
-.no-scroll
-	overflow: hidden
 
 //------------------------custom style--------------------
 .title-line
@@ -97,15 +96,19 @@
 	color: $white__title
 
 .logo
-	display: block
+	display: flex
+	flex-direction: column
+	align-items: flex-start
 	font-weight: 700
-	line-height: .7
-	font-size: 32px
+	line-height: .8
+	font-size: 52px
 	margin-left: 25px
+
 	span
-		font-size: 21px
+		font-size: 18px
 		font-weight: 300
 		letter-spacing: .7px
+		line-height: 1.4
 
 .decoration
 	position: absolute
@@ -120,14 +123,14 @@
 		background: $dark
 
 	&::before
-		top: 60px
+		top: 100px
 		left: -3px
 		height: 7px
 		width: 7px
 		border-radius: 100%
 
 	&::after
-		height: 60px
+		height: 100px
 		width: 2px
 
 	&--reverse
@@ -279,14 +282,14 @@
 			justify-content: space-between
 			align-items: flex-end
 
-			span, a
+			span, a, h2
 				text-transform: uppercase
 				color: $white
 
-			a
-				transition: all .3s
-				&:hover, &:focus
-					font-weight: 700
+			// a
+			// 	transition: all .3s
+			// 	&:hover, &:focus
+			// 		font-weight: 700
 
 	&__title-line
 
@@ -389,7 +392,7 @@
 					width: 95%
 				&::after
 					left: 100%
-		
+
 .nav
 	text-align: right
 	text-transform: uppercase
@@ -446,7 +449,7 @@
 			
 		&::after
 			left: 100%
-	
+
 .section
 	background: $white
 
@@ -467,6 +470,8 @@
 
 		h2, h3, p, span
 			color: #fff
+
+
 
 .footer
 	position: relative
@@ -537,11 +542,30 @@
 			line-height: 1.2
 
 
-.swiper-slide
-	opacity: 0 !important
+.error-404
+	min-height: 83vh
 
-	&-active
-		opacity: 1 !important
+	a
+		width: 100% !important
+
+
+.policy
+	padding: 30px 0
+
+	table
+		margin: 20px 0
+
+	td
+		padding: 10px
+		border: 1px solid $dark
+
+	a
+		color: $dark
+
+		&:hover,
+		&:focus
+			color: $dark
+			text-decoration: underline
 
 
 

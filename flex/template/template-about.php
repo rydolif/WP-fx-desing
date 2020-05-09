@@ -9,7 +9,7 @@
 
 <body class="no-scroll about">
 
-	<header class="header header--page">
+	<header class="header header--page"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<div class="container header__container">
 
 			<div class="row header__row">
@@ -21,8 +21,7 @@
 
 				<div class="header__line col-lg-4">
 					<a href="<?php echo get_home_url(); ?>" class="header__logo logo">
-						<b>FLEX</b>
-						<br>
+						<b>FX</b>
 						<span class="title-line">design</span>
 					</a>
 					
@@ -38,8 +37,6 @@
 					
 					<p class="header--page__text">unique projects of flax design</p>
 					<p class="header--page__title title-line">
-						жизнь
-						<br>идей
 						<b>
 							<br>life
 							<br>of
@@ -61,7 +58,7 @@
 					</nav>
 
 					<div class="header__next">
-						<a href="#top">скроль вниз<span class="header__next_title-line title-line"></span></a>
+						<a href="#top">scroll down<span class="header__next_title-line title-line"></span></a>
 					</div>
 				</div>
 
@@ -71,11 +68,11 @@
 					</div>
 
 					<div class="header--page__block-title">
-						<p class="header--page__sub-title">услуги & цены</p>
-						<h1>о нас</h1>
+						<p class="header--page__sub-title">Price & Services</p>
+						<h1>about us</h1>
 					</div>
 
-					<span>flex-design web production</span>
+					<span>fx-design web production</span>
 				</div>
 
 			</div>
@@ -89,29 +86,29 @@
 
 				<div class="site-plan__container">
 
-					<p class="about__sub-title sub-title">мы четко видим результат</p>
-					<h2>наша цель <br>и миссия</h2>
+					<p class="about__sub-title sub-title wow bounceInUp" data-wow-duration="2s">we know the result</p>
+					<h2 class="wow bounceInUp" data-wow-duration="2s">our goal <br>and mission</h2>
 
 					<div class="site-plan__list">
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2s">
 							<div class="site-plan__item_number">01</div>
-							<h3>Качество</h3>
+							<h3>Quality</h3>
 							<p>
-								Качество - это основа стратегии развития и процветания нашего агентства. Ваш проект может быть небольшим, сложным или совершенно сумасшедшим, мы в любом случае реализуем его на высшем уровне.
+							Quality is an essential elment of our business development strategy. Your project might be small, complicated and even completely crazy / out of the box/, but we will deliver the result with the highest quality. 
 							</p>
 						</div>
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2.2s">
 							<div class="site-plan__item_number">02</div>
-							<h3>правильное построение <br> процесса</h3>
+							<h3>clear process <br> structure</h3>
 							<p>
-								Соединяем стратегический веб-маркетинг и креатив. Задаем стандарты на рынке веб-разработки, создавая эталонные продукты.
+								We combine strategic web - marketing with creative design. We set up the standarts on the web-development market by creating benchmark product. 
 							</p>
 						</div>						
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2.4s">
 							<div class="site-plan__item_number">03</div>
-							<h3>работаем на результат</h3>
+							<h3>result matters</h3>
 							<p>
-								Мы не создаем проблем – мы решаем их. И если Вы не хотите думать – думаем за Вас. Целая команда опытных разработчиков, дизайнеров и копирайтеров готова взять на себя проект от его задумки до продвижения, погрузиться в него с головой, выучить наизусть вашего клиента и сделать ваш бизнес прибыльным
+								We are not afraid of problems, we just solve them. If you don't like creative thinking, we will do this for you. A team of skilled web-developers, designers and copywriters is ready to take care your project from the concept creation till the promotion. We are ready to dive deep into it, to learn the client needs by heart  and to make  its business profitable.
 							</p>
 						</div>
 
@@ -130,29 +127,29 @@
 
 				<div class="about-statistics__container">
 
-					<p class="sub-title">вы можете смело довериться нам</p>					
-					<h2>опыт и достижения</h2>
+					<p class="sub-title wow bounceInUp" data-wow-duration="2s">Trust and give it to us</p>					
+					<h2 class="wow bounceInUp" data-wow-duration="2s">expertise and achievements</h2>
 
 					<div class="about-statistics__list">
 
 						<div class="about-statistics__item">
-							<h3 class="title-line">117</h3>
-							<p>готовых проектов в копилке опыта</p>
+							<h3 class="title-line">217</h3>
+							<p>accomplished projects</p>
 						</div>
 
 						<div class="about-statistics__item">
-							<h3 class="title-line">3</h3>
-							<p>года работы</p>
+							<h3 class="title-line">5</h3>
+							<p>years of work</p>
 						</div>
 						
 						<div class="about-statistics__item">
-							<h3 class="title-line">92</h3>
-							<p>довольных клиентов </p>
+							<h3 class="title-line">172</h3>
+							<p>Happy clients </p>
 						</div>
 											
 						<div class="about-statistics__item">
-							<h3 class="title-line">25</h3>
-							<p>повторный заказ</p>
+							<h3 class="title-line">45</h3>
+							<p>renewed requests</p>
 						</div>
 					</div>
 

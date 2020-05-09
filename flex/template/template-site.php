@@ -9,7 +9,7 @@
 
 <body class="no-scroll site">
 
-	<header class="header header--page">
+	<header class="header header--page"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<div class="container header__container">
 
 			<div class="row header__row">
@@ -21,8 +21,7 @@
 
 				<div class="header__line col-lg-4">
 					<a href="<?php echo get_home_url(); ?>" class="header__logo logo">
-						<b>FLEX</b>
-						<br>
+						<b>FX</b>
 						<span class="title-line">design</span>
 					</a>
 
@@ -38,8 +37,6 @@
 					
 					<p class="header--page__text">unique projects of flax design</p>
 					<p class="header--page__title title-line">
-						жизнь
-						<br>идей
 						<b>
 							<br>life
 							<br>of
@@ -61,7 +58,7 @@
 					</nav>
 
 					<div class="header__next">
-						<a href="#top">скроль вниз<span class="header__next_title-line title-line"></span></a>
+						<a href="#top">scroll dowm<span class="header__next_title-line title-line"></span></a>
 					</div>
 				</div>
 
@@ -71,11 +68,11 @@
 					</div>
 
 					<div class="header--page__block-title">
-						<p class="header--page__sub-title">услуги & цены</p>
-						<h1>создание<br> <span>сайтов</span></h1>
+						<p class="header--page__sub-title">price & service</p>
+						<h1>Website<br> <span>creation</span></h1>
 					</div>
 
-					<span>flex-design web production</span>
+					<span>fx-design web production</span>
 				</div>
 
 			</div>
@@ -89,29 +86,29 @@
 
 				<div class="site-plan__container">
 
-					<p class="about__sub-title sub-title">мы создаем сайты</p>
-					<h2>соответствующие <br>задачам вашего <br>бизнеса</h2>
+					<p class="about__sub-title sub-title wow bounceInUp" data-wow-duration="2s">We design websites</p>
+					<h2 class="wow bounceInUp" data-wow-duration="2s">wich reflect <br>the goals of your<br>organisation</h2>
 
 					<div class="site-plan__list">
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2s">
 							<div class="site-plan__item_number">01</div>
-							<h3>индивидуальный дизайн</h3>
+							<h3>individual design</h3>
 							<p>
-								Мы подчеркнем Вашу индивидуальность  с помощью визуального контента. В работе мы сочетаем простоту и лаконичность  , сохраняя при этом cуть и идею . Клиенты будут впечатлены.
+								We will highlight your individual style with visual content. We prefer simplicity and relevancy and rely on your idea. Your customers will be impressed.
 							</p>
 						</div>
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2.2s">
 							<div class="site-plan__item_number">02</div>
-							<h3>современные технологии</h3>
+							<h3>Cutting edge technoogies </h3>
 							<p>
-								Используем новейшие технологии для создания современных и  высокопродуктивных интерфейсов, адаптируемых под любые браузеры и устройства.
+								We use the newest technologies to create highly effective interfaces that can be adapted for each browser and application. 
 							</p>
 						</div>						
-						<div class="site-plan__item">
+						<div class="site-plan__item wow bounceInUp" data-wow-duration="2.4s">
 							<div class="site-plan__item_number">03</div>
-							<h3>функциональность</h3>
+							<h3>functional</h3>
 							<p>
-								Наш продукт  работает качественно и быстро  обеспечивает отличную восприимчивость пользователей на любых устройствах: мобильных телефонах, планшетах или персональных компьютерах.
+							Our product are user frendliy and deliver hight quality on all devises: mobile phones, tablets and PCs.
 							</p>
 						</div>
 
@@ -132,71 +129,71 @@
 
 					<div class="site-work__list">
 						
-						<div class="site-work__item">
+						<div class="site-work__item wow bounceInUp" data-wow-duration="2s">
 							<div>
 								<div class="site-work__item_dekor"></div>
-								<h3>Сайт Визитка <br> <span>(Landing page)</span> <span class="title-line"></span></h3>
+								<h3>Business website <br> <span>(Landing page)</span> <span class="title-line"></span></h3>
 								<p>
-									Небольшой сайт, как правило, состоящий из одной веб-страниц и содержащий основную информацию об организации, частном лице, компании, товарах или услугах, прейскуранты, контактные данные. Подходит для быстрого старта.
+								A small website consisting of one web-page that contains compressed information about either an organisation or an individual, product, secrvices, prices and contact data. A landing page is suitable for a fust start.
 								</p>
-								<div class="site-work__item_price"><span>ОТ</span> 100 <span>usd</span></div>
+								<div class="site-work__item_price"><span>from</span> 200 <span>eur</span></div>
 							</div>
 						</div>
 
-						<div class="site-work__item">
+						<div class="site-work__item wow bounceInUp" data-wow-duration="2.2s">
 							<div>
 								<div class="site-work__item_dekor"></div>
-								<h3>Корпоративные <br> <span>сайты</span> <span class="title-line"></span></h3>
+								<h3>Corporate <br> <span>website</span> <span class="title-line"></span></h3>
 								<p>
-									Сайт компании, ее официальное виртуальное представительство в интернете. Эфективный бизнес сайт ,который продает
+									Company website representation on Internet. Effective business site that sells 
 								</p>
-								<div class="site-work__item_price"><span>ОТ</span> 200 <span>usd</span></div>
+								<div class="site-work__item_price"><span>from</span> 300 <span>eur</span></div>
 							</div>
 						</div>
 
-						<div class="site-work__item">
+						<div class="site-work__item wow bounceInUp" data-wow-duration="2.4s">
 							<div>
 								<div class="site-work__item_dekor"></div>
-								<h3>Интернет- <br>магазин <span class="title-line"></span></h3>
+								<h3>Webshop <span class="title-line"></span></h3>
 								<p>
-									Платформа для продажи любых товаров через интернет. Даст Вам высокую конверсию, а соответственно и прибыль, не заставит себя ждать!
+									Platform to sell any products online aiming for hight conversion and profitability.
 								</p>
-								<div class="site-work__item_price"><span>от</span> 300 <span>usd</span></div>
+								<div class="site-work__item_price"><span>from</span> 500 <span>eur</span></div>
 							</div>
 						</div>
 
-						<div class="site-work__item">
+						<div class="site-work__item wow bounceInUp" data-wow-duration="2s">
 							<div>
 								<div class="site-work__item_dekor"></div>
-								<h3>Сайт <br>Каталог <span class="title-line"></span></h3>
+								<h3>Product <br>catalogue website <span class="title-line"></span></h3>
 								<p>
-									Сайт в котором представлен перечень товаров с подробным описанием, подкрепленным фотографиями и статьями. Предназначается для ознакомления потенциальных клиентов с ассортиментом товаров из каталога.
+								Website with a catalogue of products with product description product images and articles. It aims to show potential customers the product assortiment.
 								</p>
-								<div class="site-work__item_price"><span>от</span> 150 <span>usd</span></div>
+								<div class="site-work__item_price"><span>from</span> 150 <span>usd</span></div>
 							</div>
 						</div>
 
-						<div class="site-work__item">
+						<div class="site-work__item wow bounceInUp" data-wow-duration="2.2s">
 							<div>
 								<div class="site-work__item_dekor"></div>
-								<h3>Wow-сайты</h3>
+								<h3>Wow-websites</h3>
 								<p>
-									Нам мало просто соответствовать ожиданиям. Мы хотим удивлять!Так рождаются WOW-сайты, которые запоминаются надолго.
+									We dont want to comply with the expectations. We want to suprise you. In such a way we create WOW websites which you will remember. A websites with an individual design and functionalites. Rationally created but with the potentional of a star. 
 									<br>
-									Сайт с индивидуальным дизайном и функционалом. Рационально оформленный проект станет визитной карточкой владельца и подчеркнет его статус.
+									
 								</p>
-								<div class="site-work__item_price"><span>от</span> 400 <span>usd</span></div>
+								<div class="site-work__item_price"><span>from</span> 600 <span>eur</span></div>
 							</div>
 						</div>
 
-						<div class="site-work__item">
+						<div class="site-work__item wow bounceInUp" data-wow-duration="2.4s">
 							<h3>
 								<span></span>
-								<a href="<?php echo get_home_url(); ?>/seo" class="link">ПРОДВИЖЕНИЕ САЙТОВ <span></span></a>
+								<a href="<?php echo get_home_url(); ?>/seo" class="link">PROMOTION WEBSITE <span></span></a>
 							</h3>
 							<h3 class="site-work__item_click">
 								<span></span>
-								<a href="#contacts" class="link">Заказать услугу<span></span></a>
+								<a href="#contacts" class="link">Oeder now<span></span></a>
 							</h3>
 						</div>
 					</div>
