@@ -189,11 +189,11 @@
 						<div class="site-work__item wow bounceInUp" data-wow-duration="2.4s">
 							<h3>
 								<span></span>
-								<a href="<?php echo get_home_url(); ?>/seo" class="link">PROMOTION WEBSITE <span></span></a>
+								<a href="<?php echo get_home_url(); ?>/design" class="link">DESIGN<span></span></a>
 							</h3>
 							<h3 class="site-work__item_click">
 								<span></span>
-								<a href="#contacts" class="link">Oeder now<span></span></a>
+								<a href="#contacts" class="link">Order now<span></span></a>
 							</h3>
 						</div>
 					</div>

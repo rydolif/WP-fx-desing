@@ -13,11 +13,11 @@
 				<div class="act__info">
 					<div class="act__info_link">
 						<span>E-mail</span>
-						<a href="mailto:flex-design.net">Sales@flex-design.net</a>
+						<a href="mailto:fxdesign.marketing@gmail.com">fxdesign.marketing@gmail.com</a>
 					</div>
 					<div class="act__info_link act__info_link--tel">
 						<span>Phone</span>
-						<a href="tel:+48575471857" class="">+48 575 471 857</a>
+						<a href="tel:+310638470907" class="">+31 (0)6 38470907</a>
 					</div>
 				</div>
 

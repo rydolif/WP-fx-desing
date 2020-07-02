@@ -108,13 +108,6 @@ $(function() {
      return this.optional(element) || phone_number.match(/\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}/);
   }, "Введите Ваш телефон");
 
-
-  $('input[name="phonepl"]').mask('+0 (000) 000-00-00');
-
-  jQuery.validator.addMethod("phoneno", function(phone_number, element) {
-     return this.optional(element) || phone_number.match(/\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}/);
-  }, "Введите Ваш телефон");
-
   $(".form").each(function(index, el) {
     $(el).addClass('form-' + index);
 
@@ -130,23 +123,13 @@ $(function() {
         name: "Enter your name",
         email: "Enter your email",
         phone: "Enter your phone number",
-        namepl: "Wpisz imie",
-        emailpl: "Wpisz e-mail",
-        phonepl: "Wpisz telefon",
       },
       submitHandler: function(form) {
         var t = {
           name: jQuery('.form-' + index).find("input[name=name]").val(),
           phone: jQuery('.form-' + index).find("input[name=phone]").val(),
-          email: jQuery('.form-' + index).find("input[name=email]").val(),
+          email: jQuery('.form-' + index).find("input[name=mail]").val(),
           comment: jQuery('.form-' + index).find("textarea[name=comment]").val(),
-
-          namepl: jQuery('.form-' + index).find("input[name=namepl]").val(),
-          phonepl: jQuery('.form-' + index).find("input[name=phonepl]").val(),
-          emailpl: jQuery('.form-' + index).find("input[name=emailpl]").val(),
-          commentpl: jQuery('.form-' + index).find("textarea[name=commentpl]").val(),
-
-          subject: jQuery('.form-' + index).find("input[name=subject]").val()
         };
         ajaxSend('.form-' + index, t);
       }
@@ -157,7 +140,7 @@ $(function() {
   function ajaxSend(formName, data) {
     jQuery.ajax({
       type: "POST",
-      url: "/wp-content/themes/flex/sendmail.php",
+      url: "/wp-content/themes/flex/telegram.php",
       data: data,
       success: function() {
         $(".modal").popup("hide");

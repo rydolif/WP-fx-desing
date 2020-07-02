@@ -10,10 +10,7 @@
 			<div class="row">
 				<div class="offset-lg-2 col-lg-8">
 
-					<form action="sendmail.php" class="form" method="post">
-
-						<input type="hidden" name="subject" value="fx-form">
-
+					<form action="telegram.php" class="form" method="post">
 						<div class="form__row">
 							<label for="name">Name</label>
 							<input type="text" name="name" placeholder="Name" id="name" required>
@@ -24,7 +21,7 @@
 						</div>
 						<div class="form__row">
 							<label for="email">E-mail</label>
-							<input type="email" name="email"  placeholder="E-mail" id="email" required>
+							<input type="email" name="mail"  placeholder="E-mail" id="email" required>
 						</div>
 						<div class="form__row form__row--textarea">
 							<label for="comment">Request</label>

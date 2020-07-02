@@ -8,7 +8,7 @@
 				</a>
 
 				<div class="footer__tel">
-					<div><a href="tel:+310638470907">+31 (0)638470907</a></div>
+					<div><a href="tel:+310638470907">+31 (0) 638470907</a></div>
 					<div><a href="mailto:fxdesign.marketing@gmail.com">fxdesign.marketing@gmail.com</a></div>
 				</div>
 
@@ -47,6 +47,5 @@
       gtag('config', 'UA-129724484-2');
     </script>
 
-	
 </body>
 </html>

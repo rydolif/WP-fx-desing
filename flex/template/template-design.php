@@ -164,7 +164,7 @@
 						<h3>
 							<span></span>
 							<span></span>
-							<a href="<?php echo get_home_url(); ?>/site" class="link">Websites design<span></span></a>
+							<a href="<?php echo get_home_url(); ?>/site" class="link">WEBSITE CREATION <span></span></a>
 						</h3>
 						<h3 class="site-work__item_click">
 							<span></span>
