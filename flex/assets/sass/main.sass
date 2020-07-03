@@ -569,5 +569,59 @@
 
 
 
+.wpcf7-form-control-wrap
+	width: 100%
+
+	textarea
+		margin-bottom: -10px
+
+.wpcf7-not-valid-tip
+	position: absolute
+	right: 0
+	left: 0
+	width: auto
+	bottom: 0
+	text-align: right
+	color: #da1f65 !important
+	font-size: 12px !important
+	text-transform: none
+	z-index: 1.2 !important
+
+	&::before
+		content: ""
+		display: block
+		width: 100%
+		position: absolute
+		bottom: -1px
+		left: 0
+		right: 0
+		border: 1px solid #da1f65
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing,
+div.wpcf7-response-output,
+div.wpcf7-mail-sent-ok
+	position: absolute
+	right: 0
+	left: 0
+	margin: 0
+	text-align: center
+	font-size: 14px
+	color: #ffffff
+	
+
+.wpcf7-submit
+	font-size: 21px
+	transition: all .6s
+	border-bottom: 1px solid transparent
+
+
+	&:hover,
+	&:focus
+		border-bottom: 1px solid #fff
+
+
+
+
 @import "page"
 @import "media" // Always at the end
